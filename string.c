@@ -183,7 +183,7 @@ void atbshSequences(char* word, char* text)
     char cp[strlen(text)];
     strcpy(cp,text);
     int s =0,len=strlen(cp),flag = 0;
-    printf("\nAtbsh Sequences: ");
+    printf("\nAtbash Sequences: ");
     for (int i = 0; i < len; i++)
     {
         s=0;
