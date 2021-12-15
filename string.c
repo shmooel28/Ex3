@@ -239,7 +239,6 @@ int main()
         word[i] = c;
         scanf("%c",&c);
     }
-    //word[i] = '\0';
     c = ' ';
     scanf("%c",&c);
 
@@ -249,7 +248,6 @@ int main()
         text[i] = c;
         scanf("%c",&c);
     }
-    //text[i] = '\0';
     gematriaSequences(word,text);
     atbshSequences(word,text);
     anagramSequences(word,text);
