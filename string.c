@@ -145,7 +145,7 @@ void anagramSequences(char* word, char* text)
 {
     char cp[strlen(text)];
     strcpy(cp,text);
-    printf("\nAnagram Sequences:");
+    printf("\nAnagram Sequences: ");
     int s =0,len=strlen(cp),flag = 0;
     for (int i = 0; i < len; i++)
     {
@@ -183,7 +183,7 @@ void atbshSequences(char* word, char* text)
     char cp[strlen(text)];
     strcpy(cp,text);
     int s =0,len=strlen(cp),flag = 0;
-    printf("\nAtbsh Sequences:");
+    printf("\nAtbsh Sequences: ");
     for (int i = 0; i < len; i++)
     {
         s=0;
